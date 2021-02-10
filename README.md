@@ -111,7 +111,7 @@ NO SE DETUVO EL PROGRAMA.
 	
 
 10. Un elemento molesto para la simulación es que en cierto punto de la misma hay pocos 'inmortales' vivos realizando peleas fallidas con 'inmortales' ya muertos. Es necesario ir suprimiendo los inmortales muertos de la simulación a medida que van muriendo. Para esto:
-	* Analizando el esquema de funcionamiento de la simulación, esto podría crear una condición de carrera? Implemente la funcionalidad, ejecute la simulación y observe qué problema se presenta cuando hay muchos 'inmortales' en la misma. Escriba sus conclusiones al respecto en el archivo RESPUESTAS.txt.
+	* Analizando el esquema de funcionamiento de la simulación, esto podría crear una condición de carrera? Implemente la funcionalidad, ejecute la simulación y observe qué problema se presenta cuando hay muchos 'inmortales' en la misma. Escriba sus conclusiones al respecto en el archivo RESPUESTAS.txt. ** ESTO SE RESPONDIO ACONTINUACION **
 	
 	Si, esto puede crear una condicion de carrera al momento en que dos jugadores intenten reportar la muerte de un jugador al mismo tiempo. Al correr el programa con muchos inmortales se nota ademas de un uso excesivo e innecesario de inmortales peleando con 'inmortales' muertos.
 
